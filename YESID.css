@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+    max-width: 313px;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author .name {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #f58220;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #e67716;
+}
+
+footer {
+    padding: 2rem;
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.copyright img {
+    width: 2rem;
+}
